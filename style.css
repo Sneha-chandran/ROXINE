@@ -136,6 +136,7 @@
     list-style: none;
 }
 .image-container {
+    padding: 10px;
     display: flex;
     justify-content: center; /* Align items horizontally */
     align-items: center; /* Align items vertically */
@@ -168,6 +169,8 @@
     line-height: 1.875rem;
     font-style: italic;
     color: #55565b;
+    font-style: italic;
+    padding: 15px;
 }
 .section6{
     display: flex;
@@ -190,4 +193,127 @@
     padding: 100px 20px 20px 20px;
     color: #55565b;
     font-size: 30px;
+}
+.section6 h2{
+    font-size: 42px;
+    color: #55565b;
+}
+.section6 span{
+    font-size: 17px;
+    padding: 15px 15px 10px 15px;
+    font-style: italic;
+}
+.section61 p{
+    padding: 25px;
+    font-size: 20px;
+    color: #55565b;
+    display: block;
+}
+.section7{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 100px;
+}
+.section7 h3{
+    color: #55565b;
+    font-size: 28px;
+}
+.section7 h2{
+    color: #55565b;
+    font-size: 42px;
+}
+.section7 span{
+    padding: 20px 0px;
+    font-size: 20px;
+    font-style: italic;
+}
+.imageteam{
+    display: flex;
+    gap: 20px;
+    height: 435px;
+    width: 290px;
+    padding-top: 40px;
+    padding-right: 70px;
+}
+ .ss{
+    padding: 70px;
+    font-style: normal;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #55565b;
+} 
+.achievements .iconss{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 80px;
+    padding-bottom: 40px;
+    background-color: bisque;
+}
+.achievements .ss0{
+    padding: 20px;
+}
+.achievements .ss1{
+    padding: 20px;
+}
+.achievements .ss2{
+    padding: 20px;
+}
+.achievements .ss3{
+    padding: 20px;
+}
+.achievements .ss0 .num{
+    padding: 40px;
+}
+.section8{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section8 h3{
+    padding: 80px 20px 15px;
+    color: #55b65b;
+    font-size: 22px;
+}
+.section8 h2{
+    padding: 20px;
+    font-size: 42px;
+}
+.section8 span{
+    font-style: italic;
+    font-size: 19px;
+}
+.logos{
+    display: flex;
+    gap: 130px;
+    height: 115px;
+    width: 103px;
+    padding: 40px 150px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px 40px;
+    background-color: black;
+    color: gray;
+    margin-top: 40px;
+}
+.footer .Logo{
+    font-size: 25px;
+}
+.footer .Navigation ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: #55565b;
+    padding: 20px 16px;
+}
+.footer .Icons22 ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.footer .Icons22 li:hover{
+    color: red;
+    transition: 2s;
 }
