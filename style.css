@@ -43,7 +43,7 @@
     opacity: 1;
 }
 .hero h1{
-    font-size: 70px;
+    font-size: 100px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -176,6 +176,17 @@
     font-style: italic;
     padding: 15px;
 }
+.para .para1{
+    font-size: 20px;
+    padding: 40px;
+}
+.para .para2{
+    font-size: 20px;
+    padding: 40px;
+}
+/* .para{
+    display: flex;
+} */
 .section6{
     display: flex;
     align-items: center;
