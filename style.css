@@ -1,334 +1,315 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.Header{
+
+.header {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 20px 20px;
-}
-.Header .Logo{
-    font-size: 25px;
-}
-.Header .Navigation ul{
-    display: flex;
+    background-color: white;
     gap: 20px;
-    list-style: none;
-    color: #55565b;
-    padding: 20px 16px;
-}
-.Header .Icons ul{
-    display: flex;
-    gap: 20px;
-    list-style: none;
-}
-.hero{
-    display: flex;
-    background-image: url(./big-14.jpg);
-    width: 100%;
-    height: 100vh;
-    padding: 70px 0;
-    background-attachment: fixed;
-    background-position: center;
-    flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
-    border-width: 0px;
-    margin: 0px;
-    padding: 0px 19px;
-    letter-spacing: 3px;
-    white-space: normal;
-    opacity: 1;
+    padding: 20px 50px;
+    color: #333;
+    /* Dark color code */
+    font-weight: bold;
+    font-size: 20px;
 }
-.hero h1{
-    font-size: 100px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.hero h2{
-    font-size: 30px;
-    color: #FFFFFF;
-}
-.hero p{
-    font-size: 30px;
-    color: white;
-} 
-.button{
-    background-color: #5645ff;
-    color: #FFFFFF;
-    padding: 15px;
-}
-.section1 .datas1{
-    padding: 30px;
+
+.header .sub {
     display: flex;
-    gap: 70px;
-}
-.section1 .datas2{
-    background-color: lightslategray;
-    padding: 60px;
-}
-.section1 .datas3{
-    background-color: lightslategray;
-    padding: 60px;
-}
-.section2 .icon{
-    display: flex;
-    gap: 70px;
-    padding: 30px;
+    align-items: center;
+    gap: 63px;
 
 }
-.section2 .datasz{
-    background-color: lightslategray;
-    padding: 70px;
+
+.header .logo {
+    font-size: 50px;
 }
-.section2 .datas2{
-    background-color: lightslategray;
-    padding: 70px;
-}
-.section2 .datas3{
-    background-color: lightslategray;
-    padding: 70px;  
-}
-.section3{
-    background-color: rgb(239, 185, 84);
+
+.header .Navigation ul {
     display: flex;
-    padding: 70px 0;
-    background-position: center;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    border-width: 0px;
-    margin: 0px;
-    padding: 0px 19px;
-    letter-spacing: 3px;
-    white-space: normal;
-    opacity: 1;
-}
-.section3 h3{
-    color: #FFFFFF;
-    margin: 0px 0px 10px;
-    padding: 40px;
-}
-.section3 h2{
-    color: #FFFFFF;
-    margin: 0px 0px 15px;
-    font-family: helvetica;
-    padding: 30px;
-}
-.section3 .button{
-    color: #FFFFFF;
-    background-color: #5645ff;
-    padding: 15px;
-   font-family: Arial, Helvetica, sans-serif;
-}
-.section4{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.section4 h2{
-    margin-top: 50px;
-    color: #55565b;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.section4 ul{
-    display: flex;
-    padding: 60px;
-    gap: 20px;
+    gap: 30px;
     list-style: none;
+    font-size: 25px;
+    color: #303030;
 }
-.image-container {
-    padding: 10px;
+
+.sec1 {
     display: flex;
-    justify-content: center; /* Align items horizontally */
-    align-items: center; /* Align items vertically */
-    gap: 10px; /* Add some gap between images */
-  }
-  .image-container img {
-    width: 33.33%;
-  }
-.section5{
-    padding: 100px;
-}
-.section5 h3{
-    font-weight: 300;
-    color: #55565b;
-    margin: 0 0 .625rem;
-    text-transform: uppercase;
-    letter-spacing: .2143rem;
-    font-size: 30px;
-}
-.section5 h2{
-    color: #55565b;
-    font-weight: 700;
-    letter-spacing: .125rem;
-    font-size: 42px;
-}
-.section5 span{
-    display: block;
-    margin-bottom: .625rem;
-    letter-spacing: .0625rem;
-    line-height: 1.875rem;
-    font-style: italic;
-    color: #55565b;
-    font-style: italic;
-    padding: 15px;
-}
-.para .para1{
-    font-size: 20px;
-    padding: 40px;
-}
-.para .para2{
-    font-size: 20px;
-    padding: 40px;
-}
-/* .para{
-    display: flex;
-} */
-.section6{
-    display: flex;
-    align-items: center;
     flex-direction: column;
-    background-image: url(./big-01.jpg);
+    align-items: center;
+    background-image: linear-gradient(rgba(128, 128, 128, 0.266), rgba(128 128 128 / 27%)), url(./herobg.jpg);
     width: 100%;
     height: 100vh;
-    background-position: center;
-    flex-direction: column;
+    padding: 100px;
+}
+
+.sec1 h1 {
+    font-size: 25px;
+    color: white;
+}
+
+.sec1 .one {
+    font-size: 100px;
+    color: white;
+    font-style: bold;
+    font-family: sans-serif;
+    padding: 48px;
+}
+
+.sec1 .two {
+    color: white;
+    font-size: 25px;
+    margin: 20px;
+}
+
+.sec1 .button {
+    padding: 10px 34px 15px;
+    background-color: transparent;
+    color: #f6f6f6;
+    margin: 20px;
+}
+
+.sec2 {
+    padding: 40px;
+    display: flex;
     align-items: center;
-    border-width: 0px;
-    margin: 0px;
-    padding: 0px 19px;
-    letter-spacing: 3px;
-    white-space: normal;
-    opacity: 1;
+    background-color: #ffe2da;
 }
-.section6 h3{
-    padding: 100px 20px 20px 20px;
-    color: #55565b;
-    font-size: 30px;
+
+.sec2 h1 {
+    font-size: 132px;
+    color: coral;
 }
-.section6 h2{
-    font-size: 42px;
-    color: #55565b;
+
+.sec3 {
+    display: flex;
+    padding: 70px;
+    gap: 20px;
 }
-.section6 span{
-    font-size: 17px;
-    padding: 15px 15px 10px 15px;
-    font-style: italic;
+
+.sec3 .hero h3 {
+    padding: 18px 0px;
+    color: #303030;
+
 }
-.section61 p{
-    padding: 25px;
-    font-size: 20px;
-    color: #55565b;
-    display: block;
+
+.sec3 .hero p {
+    font-size: 19px;
+    color: #303030;
 }
-.section7{
+
+.sec3 .hero h1 {
+    font-size: 60px;
+    color: #9b8db7;
+    padding: 20px 5px;
+}
+
+.sec3 .hero .fund p {
+    color: #9b8db7;
+}
+
+.sec4 {
     display: flex;
     flex-direction: column;
-    padding: 100px 100px;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(128, 128, 128, 0.266), rgba(128 128 128 / 27%)), url(./img2.jpg);
+    width: 100%;
+    height: 100vh;
+    padding: 150px;
 }
-.section7 h3{
-    color: #55565b;
-    font-size: 28px;
+.sec4 h1{
+    font-size: 70.5px;
+    color: #ffff;
+    
 }
-.section7 h2{
-    color: #55565b;
-    font-size: 42px;
+.sec4 p{
+    font-size: 29px;
+    color: #ffff;
+    padding-top: 20px;
 }
-.section7 span{
-    padding: 20px 0px;
-    font-size: 20px;
-    font-style: italic;
+.sec4 .button1 {
+    padding: 10px 34px 15px;
+    background-color: white;
+    color: #0a0000;
+    margin: 20px;
 }
-.imageteam{
-    display: flex;
-    gap: 20px;
-    height: 435px;
-    width: 290px;
-    padding-top: 40px;
-    padding-right: 70px;
-}
- .ss{
+.sec5{
     padding: 70px;
-    font-style: normal;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #55565b;
-} 
-.achievements .iconss{
+}
+.sec5 h3{
+    font-size: 66px;
+}
+.sec5 p{
+    font-size: 25px;
+    padding-top: 20px;
+}
+.sec5 .list ul{
     display: flex;
-    justify-content: space-evenly;
-    gap: 80px;
-    padding-bottom: 40px;
-    background-color: bisque;
-}
-.achievements .ss0{
-    padding: 20px;
-}
-.achievements .ss1{
-    padding: 20px;
-}
-.achievements .ss2{
-    padding: 20px;
-}
-.achievements .ss3{
-    padding: 20px;
-}
-.achievements .ss0 .num{
+    flex-direction: column;
+    gap: 40px;
+    font-size: 30px;
+    list-style: none;
     padding: 40px;
 }
-.section8{
+.sec7{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    gap: 80px;
+    padding-top: 30px;
+    background-color: rgb(238, 243, 243);
 }
-.section8 h3{
-    padding: 80px 20px 15px;
-    color: #55b65b;
-    font-size: 22px;
+.sec7 .ladyimg .image{
+    height: 690px;
+    width: 690px;
+
 }
-.section8 h2{
+.sec7 .strong h3{
+    font-size: 60px;
+    padding-top: 40px;
+}
+.sec7 .profession p{
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.sec7 .profession span{
+    font-size: 21px;
+    color: black;
+    background-color: #9b8db7;
+    /* padding-top: 5px; */
+}
+.sec7 .list ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    padding-top: 30px;
+    font-size: 30px;
+}
+.sec8{
+    padding: 50px;
+}
+.sec8 h1{
+    font-size: 97px;
+    color: #9b8db7;
+}
+.sec8 p{
+    font-size: 20px;
+}
+.sec9{
+    display: flex;
+    gap: 50px;
+}
+.sec9 .im{
+    width: 360px;
+    height: 360px;
+}
+.sec10{
+    display: flex;
+    gap: 160px;
+}
+.sec10 .im{
+    padding-top: 30px;
+    width: 360px;
+    height: 360px;
+}
+.sec10 p{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.sec11{
     padding: 20px;
-    font-size: 42px;
-}
-.section8 span{
-    font-style: italic;
-    font-size: 19px;
-}
-.logos{
     display: flex;
-    gap: 130px;
-    height: 115px;
-    width: 103px;
-    padding: 40px 150px;
+    gap: 60px;
+    justify-content: space-between;
 }
-.footer{
+.sec11 .im{
+    padding-top: 30px;
+    width: 560px;
+    height: 460px;
+}
+.sec11 p{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.sec12{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 120px 40px;
-    background-color: black;
-    color: gray;
-    margin-top: 40px;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding-top: 40px;
 }
-.footer .Logo{
-    font-size: 25px;
+.sec12 .det h1{
+    font-size: 67px;
 }
-.footer .Navigation ul{
+.sec12 .det p{
+    font-size: 20px;
+}
+.sec12 .det .numberss h1{
+    font-size: 50px;
+}
+.sec12 .det .numberss h2{
+    font-size: 40px;
+}
+.sec13 .logos1 .log{
     display: flex;
-    gap: 20px;
-    list-style: none;
-    color: #55565b;
-    padding: 20px 16px;
 }
-.footer .Icons22 ul{
+.sec13 .Navi{
     display: flex;
-    gap: 20px;
+}
+.sec13 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f6f6f6;
+    gap: 80px;
+    align-items: center;
+    padding: 40px 50px;
+    color: #303030;
+}
+.sec13 .log ul {
+    display: flex;
+    gap: 80px;
+    list-style: none;
+    font-size: 90px;
+    color: #303030;
+}
+.sec13 .det2{
+    padding-top: 40px;
+    display: flex;
+    gap: 40px;
+}
+.sec13 .lis li{
     list-style: none;
 }
-.footer .Icons22 li:hover{
-    color: red;
-    transition: 2s;
+.sec13 .det2 .hedingg h1{
+    font-size: 60px;
+}
+.sec13 .det2 .hedingg p{
+    font-size: 20px;
+}
+.sec13 .det2 .lis{
+    font-size: 30px;
+}
+.sec14 .pics{
+    display: flex;
+    gap: 50px;
+}
+.sec14{
+    padding: 80px;
+}
+.sec14 .volunteers h1{
+    font-size: 60px;
+    padding: 40px 5px;
+    color: #9b8db7;
+}
+.sec14 .volunteers p{
+    font-size: 20px;
+    padding: 20px;
+    color: #080808;
+}
+.liss{
+    display: flex;
+    gap: 50px;
 }
