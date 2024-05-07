@@ -86,7 +86,7 @@
 
 .sec3 {
     display: flex;
-    padding: 70px;
+    padding: 100px;
     gap: 20px;
 }
 
@@ -239,25 +239,21 @@
     align-items: center;
     justify-content: space-evenly;
     gap: 30px;
-    padding-top: 40px;
+    padding: 40px 90px 70px 100px;
 }
 .sec12 .det h1{
-    font-size: 67px;
+    font-size: 57px;
+    width: 50%;
 }
 .sec12 .det p{
     font-size: 20px;
+    width: 810px;
 }
-.sec12 .det .numberss h1{
-    font-size: 50px;
+.sec12 .det1 .numberss h1{
+    font-size: 70px;
 }
-.sec12 .det .numberss h2{
+.sec12 .det1 .numberss h2{
     font-size: 40px;
-}
-.sec13 .logos1 .log{
-    display: flex;
-}
-.sec13 .Navi{
-    display: flex;
 }
 .sec13 {
     display: flex;
@@ -265,15 +261,16 @@
     background-color: #f6f6f6;
     gap: 80px;
     align-items: center;
-    padding: 40px 50px;
+    padding: 100px 80px;
     color: #303030;
+    width: 100%;
 }
 .sec13 .log ul {
     display: flex;
-    gap: 80px;
+    gap: 185px;
     list-style: none;
     font-size: 90px;
-    color: #303030;
+    color: gray;
 }
 .sec13 .det2{
     padding-top: 40px;
@@ -285,12 +282,17 @@
 }
 .sec13 .det2 .hedingg h1{
     font-size: 60px;
+    padding-top: 80px;
 }
 .sec13 .det2 .hedingg p{
     font-size: 20px;
+    width: 40%;
 }
 .sec13 .det2 .lis{
     font-size: 30px;
+}
+.sec13 .log li:hover{
+    color: #0a0000;
 }
 .sec14 .pics{
     display: flex;
@@ -309,7 +311,42 @@
     padding: 20px;
     color: #080808;
 }
+.sec15 .headi{
+    display: flex;
+    justify-content: center;
+    padding: 50px 15px 10px 15px;
+}
+.sec15 .headi h1{
+    font-size: 78px;
+    color: #9b8db7;
+}
+.sec15 .pg p{
+    font-size: 28px;
+    width: 30%;
+    padding: 40px;   
+}
 .liss{
     display: flex;
-    gap: 50px;
+    gap: 100px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: center;
+    background-color: #f6f6f6;
+}
+.footer p{
+    font-size: 20px;
+    padding: 50px;
+
+}
+.sec15 .liss{
+    padding: 50px;
+}
+.sec15  .liss ul{
+    list-style: none;
+}
+.containerr{
+    padding: 50px;
 }
