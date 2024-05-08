@@ -121,33 +121,40 @@
     height: 100vh;
     padding: 150px;
 }
-.sec4 h1{
+
+.sec4 h1 {
     font-size: 70.5px;
     color: #ffff;
-    
+
 }
-.sec4 p{
+
+.sec4 p {
     font-size: 29px;
     color: #ffff;
     padding-top: 20px;
 }
+
 .sec4 .button1 {
     padding: 10px 34px 15px;
     background-color: white;
     color: #0a0000;
     margin: 20px;
 }
-.sec5{
+
+.sec5 {
     padding: 70px;
 }
-.sec5 h3{
+
+.sec5 h3 {
     font-size: 66px;
 }
-.sec5 p{
+
+.sec5 p {
     font-size: 25px;
     padding-top: 20px;
 }
-.sec5 .list ul{
+
+.sec5 .list ul {
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -155,125 +162,129 @@
     list-style: none;
     padding: 40px;
 }
-.sec6{
-    padding: 100px;
-}
-.sec6 .headingf{
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    padding-bottom: 30px;
-}
-.sec6 .no{
-    display: flex;
-    gap: 40px;
-    padding-left: 30px;
 
-}
-.sec6 .fle{
-    display: flex;
-    gap: 40px;
-}
-.sec7{
+.sec7 {
     display: flex;
     gap: 80px;
     padding-top: 30px;
     background-color: rgb(238, 243, 243);
 }
-.sec7 .ladyimg .image{
+
+.sec7 .ladyimg .image {
     height: 690px;
     width: 690px;
 
 }
-.sec7 .strong h3{
+
+.sec7 .strong h3 {
     font-size: 60px;
     padding-top: 40px;
 }
-.sec7 .profession p{
+
+.sec7 .profession p {
     font-size: 20px;
     padding-top: 30px;
     padding-bottom: 20px;
 }
-.sec7 .profession span{
+
+.sec7 .profession span {
     font-size: 21px;
     color: black;
     background-color: #9b8db7;
     /* padding-top: 5px; */
 }
-.sec7 .list ul{
+
+.sec7 .list ul {
     display: flex;
     list-style: none;
     gap: 40px;
     padding-top: 30px;
     font-size: 30px;
 }
-.sec8{
+
+.sec8 {
     padding: 50px;
 }
-.sec8 h1{
+
+.sec8 h1 {
     font-size: 97px;
     color: #9b8db7;
 }
-.sec8 p{
+
+.sec8 p {
     font-size: 20px;
 }
-.sec9{
+
+.sec9 {
     display: flex;
     gap: 50px;
 }
-.sec9 .im{
+
+.sec9 .im {
     width: 360px;
     height: 360px;
 }
-.sec10{
+
+.sec10 {
     display: flex;
     gap: 160px;
 }
-.sec10 .im{
+
+.sec10 .im {
     padding-top: 30px;
     width: 360px;
     height: 360px;
 }
-.sec10 p{
+
+.sec10 p {
     font-size: 20px;
     padding-top: 20px;
 }
-.sec11{
+
+.sec11 {
     padding: 20px;
     display: flex;
     gap: 60px;
     justify-content: space-between;
 }
-.sec11 .im{
+
+.sec11 .im {
     padding-top: 30px;
     width: 560px;
     height: 460px;
 }
-.sec11 p{
+
+.sec11 p {
     font-size: 20px;
     padding-top: 20px;
 }
-.sec12{
+
+.sec12 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     gap: 30px;
     padding: 40px 90px 70px 100px;
 }
-.sec12 .det h1{
+
+.sec12 .det h1 {
     font-size: 57px;
     width: 50%;
 }
-.sec12 .det p{
+
+.sec12 .det p {
     font-size: 20px;
     width: 810px;
 }
-.sec12 .det1 .numberss h1{
+
+.sec12 .det1 .numberss h1 {
     font-size: 70px;
 }
-.sec12 .det1 .numberss h2{
+
+.sec12 .det1 .numberss h2 {
     font-size: 40px;
 }
+
 .sec13 {
     display: flex;
     justify-content: space-around;
@@ -284,6 +295,7 @@
     color: #303030;
     width: 100%;
 }
+
 .sec13 .log ul {
     display: flex;
     gap: 185px;
@@ -291,81 +303,167 @@
     font-size: 90px;
     color: gray;
 }
-.sec13 .det2{
+
+.sec13 .det2 {
     padding-top: 40px;
     display: flex;
     gap: 40px;
 }
-.sec13 .lis li{
+
+.sec13 .lis li {
     list-style: none;
 }
-.sec13 .det2 .hedingg h1{
+
+.sec13 .det2 .hedingg h1 {
     font-size: 60px;
     padding-top: 80px;
 }
-.sec13 .det2 .hedingg p{
+
+.sec13 .det2 .hedingg p {
     font-size: 20px;
     width: 40%;
 }
-.sec13 .det2 .lis{
+
+.sec13 .det2 .lis {
     font-size: 30px;
 }
-.sec13 .log li:hover{
+
+.sec13 .log li:hover {
     color: #0a0000;
 }
-.sec14 .pics{
+
+.sec14 .pics {
     display: flex;
     gap: 50px;
 }
-.sec14{
+
+.sec14 {
     padding: 80px;
 }
-.sec14 .volunteers h1{
+
+.sec14 .volunteers h1 {
     font-size: 60px;
     padding: 40px 5px;
     color: #9b8db7;
 }
-.sec14 .volunteers p{
+
+.sec14 .volunteers p {
     font-size: 20px;
     padding: 20px;
     color: #080808;
 }
-.sec15 .headi{
+
+.sec15 .headi {
     display: flex;
     justify-content: center;
     padding: 50px 15px 10px 15px;
 }
-.sec15 .headi h1{
+
+.sec15 .headi h1 {
     font-size: 78px;
     color: #9b8db7;
 }
-.sec15 .pg p{
+
+.sec15 .pg p {
     font-size: 28px;
     width: 30%;
-    padding: 40px;   
+    padding: 40px;
 }
-.liss{
+
+.liss {
     display: flex;
     gap: 100px;
 }
-.footer{
+
+.footer {
     display: flex;
     align-items: center;
     margin-top: 30px;
     justify-content: center;
     background-color: #f6f6f6;
 }
-.footer p{
+
+.footer p {
     font-size: 20px;
     padding: 50px;
 
 }
-.sec15 .liss{
+
+.sec15 .liss {
     padding: 50px;
 }
-.sec15  .liss ul{
+
+.sec15 .liss ul {
     list-style: none;
 }
-.containerr{
+
+.containerr {
     padding: 50px;
+}
+
+.trial {
+    padding: 40px;
+}
+
+.trial .name {
+    display: flex;
+    justify-content: center;
+}
+
+.trial .name h1 {
+    font-size: 40px;
+    padding: 50px;
+}
+
+.trial .secondchild {
+    display: flex;
+}
+
+.trial .secondchild .numberno {
+    font-size: 50px;
+    padding-right: 20px;
+    color: #9b8db7;
+}
+
+.trial .thirdchild {
+    display: flex;
+}
+
+.trial .thirdchild .numberno {
+    font-size: 50px;
+    padding-right: 20px;
+    color: #9b8db7;
+}
+
+.trial .fourthchild {
+    display: flex;
+}
+
+.trial .fourthchild .numberno {
+    font-size: 50px;
+    padding-right: 20px;
+    color: #9b8db7;
+}
+
+.lala {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.trial .detailsno h1 {
+    padding: 15px;
+}
+
+.trial .detailsno p {
+    font-size: 21px;
+    padding: 10px;
+}
+
+.trial .a {
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #080808;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
