@@ -233,7 +233,8 @@
 
 .sec9 {
     display: flex;
-    gap: 50px;
+    gap: 120px;
+    padding: 30px;
 }
 
 .sec9 .im {
@@ -243,13 +244,14 @@
 
 .sec10 {
     display: flex;
-    gap: 160px;
+    gap: 150px;
 }
-
 .sec10 .im {
+    border-color: 3px solid gray;
     padding-top: 30px;
     width: 360px;
     height: 360px;
+    padding-left: 40px;
 }
 
 .sec10 p {
@@ -372,28 +374,33 @@
     color: #080808;
 }
 
-.sec15 .headi {
+.sec15 .lico {
     display: flex;
-    justify-content: center;
+    gap: 90px;
     padding: 50px 15px 10px 15px;
 }
 
-.sec15 .headi h1 {
+.sec15 .headingcon h1 {
+    padding: 50px 80px 10px 80px;
     font-size: 78px;
     color: #9b8db7;
 }
 
-.sec15 .pg p {
-    font-size: 28px;
-    width: 30%;
-    padding: 40px;
+.sec15  .detailscon p {
+    font-size: 26px;
+    width: 58%;
+    padding-left: 80px;
 }
 
-.liss {
+.sec15  .lico {
     display: flex;
     gap: 100px;
+    padding-left: 80px;
 }
-
+.sec15 .lico ul{
+    list-style: none;
+    font-size: 15px;
+}
 .footer {
     display: flex;
     align-items: center;
@@ -485,4 +492,7 @@
     text-decoration: none;
     color: #080808;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sec15 .headingcon{
+    display: flex;
 }
